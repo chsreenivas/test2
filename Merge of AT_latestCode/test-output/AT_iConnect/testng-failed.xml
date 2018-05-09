@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [AT_iConnect]" allow-return-values="true">
+  <test name="Alliancetech(failed)">
+    <classes>
+      <class name="com.alliancetech.iLeads.CreateEvent_AddUser_VerifyUserinExhibitorSite_DeleteUSerFromEvent">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupSuite"/>
+          <include name="logout"/>
+          <include name="TestLink"/>
+          <include name="reportHeader"/>
+          <include name="keyNull"/>
+        </methods>
+      </class> <!-- com.alliancetech.iLeads.CreateEvent_AddUser_VerifyUserinExhibitorSite_DeleteUSerFromEvent -->
+      <class name="com.alliancetech.iLeads.ImportExhibitorsCSVFile">
+        <methods>
+          <include name="logout"/>
+          <include name="TestLink"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.alliancetech.iLeads.ImportExhibitorsCSVFile -->
+      <class name="com.alliancetech.iLeads.validateMandatoryFieldsInAddEventPage">
+        <methods>
+          <include name="validateMandatoryFields"/>
+          <include name="logout"/>
+          <include name="TestLink"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.alliancetech.iLeads.validateMandatoryFieldsInAddEventPage -->
+      <class name="com.alliancetech.iLeads.DeleteTheEvent">
+        <methods>
+          <include name="DeleteTheEvent"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.alliancetech.iLeads.DeleteTheEvent -->
+      <class name="com.alliancetech.iLeads.CreateUserAndChangePassword">
+        <methods>
+          <include name="logout"/>
+          <include name="TestLink"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.alliancetech.iLeads.CreateUserAndChangePassword -->
+    </classes>
+  </test> <!-- Alliancetech(failed) -->
+</suite> <!-- Failed suite [AT_iConnect] -->

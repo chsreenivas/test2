@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- ctrl+shift+/ : to make line(s) comment ctrl+shift+\ : to make line(s) 
+	uncomment -->
+
+<suite name="AT_iConnect" allow-return-values="true" verbose="2">
+	<test name="Alliancetech" preserve-order="true">
+
+		<classes>
+			<class name="test.com.alliancetech.TestAllianceTechRestClient"/>
+			<!-- <class name="com.Alliancetech.EMT.RESTAddRegistrant"/>
+			<class name="com.Alliancetech.EMT.RESTAddSession"/> -->
+			<!-- <class name="com.Alliancetech.REST.REST_Edit_Registrant"/>
+			<class name="com.Alliancetech.REST.REST_Edit_Session"/>
+			<class name="com.Alliancetech.REST.REST_EnrollByAttendee"/> -->
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- ctrl+shift+/ : to make line(s) comment ctrl+shift+\ : to make line(s) 
+	uncomment -->
+
+<suite name="AT_iConnect" allow-return-values="true" verbose="2">
+	<test name="Alliancetech" preserve-order="true">
+
+		<classes>
+
+			<class name="com.alliancetech.iLeads.CreateUserAndChangePassword"/>
+			<class name="com.alliancetech.iLeads.CreateEvent_AddUser_VerifyUserinExhibitorSite_DeleteUSerFromEvent"/>
+			<class name="com.alliancetech.iLeads.DeleteTheEvent"/>
+			<class name="com.alliancetech.iLeads.ImportExhibitorsCSVFile"/>
+			<class name="com.alliancetech.iLeads.validateMandatoryFieldsInAddEventPage"/>
+		</classes>
+	</test>
+</suite>

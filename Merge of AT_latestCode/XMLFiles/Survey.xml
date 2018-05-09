@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- ctrl+shift+/ : to make line(s) comment ctrl+shift+\ : to make line(s) 
+	uncomment -->
+
+<suite name="AT_iConnect" allow-return-values="true" verbose="2">
+	<test name="Alliancetech" preserve-order="true">
+
+		<classes>
+
+			<class name="com.alliancetech.emt.ScreenLayoutForSessions" />
+			<class name="com.alliancetech.emt.ScreenLayoutForRegistrants" />
+			<class name="com.alliancetech.emt.AddSessionsTest" />
+			<class name="com.alliancetech.emt.AddRegistrantsTest" />
+			<class name="com.alliancetech.emt.AddSurveyTest" />
+
+			<class name="com.alliancetech.survey.CompleteConferenceSurvey" />
+			<class name="com.alliancetech.survey.CompleteSurvey" />
+			<class name="com.alliancetech.survey.DidNotAttend" />
+
+			<class name="com.alliancetech.emt.EditSurvey" />
+			<class name="com.alliancetech.survey.editSurveyWhileTakingSurvey" />
+			<class name="com.alliancetech.emt.DeleteSurvey" />
+			<class name="com.alliancetech.emt.DeleteRegistrantTest" />
+			<class name="com.alliancetech.emt.DeleteSessionTest" />
+		</classes>
+	</test>
+</suite>

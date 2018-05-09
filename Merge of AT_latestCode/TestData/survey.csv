@@ -1,0 +1,32 @@
+Q,MultiChoiceOneAnswer,Do you like ice cream?,,1
+A,radio,Yes,Yes,
+A,radio_text,Dont Know,Dont Know,
+A,radio,No,No,
+Q,MultiChoiceMultiAnswer,What flavors of ice cream do you like?,,0
+A,checkbox,Vanilla,Vanilla,
+A,checkbox,Chocolate,Chocolate,
+A,checkbox,My Mixer,My Mixer,
+A,checkbox_text,Other,Other,
+Q,MatrixOneAnswer,Please rate the importance of the following qualities of ice cream.,,0
+A,radio,Quality of ingredients,test,
+A,radio,Test,test,
+A,radio,Flavor,test,
+A,radio,Texture,test,
+SR,Extremely Important,5,5,
+SR,Important,4,4,
+SR,Not At All Important,3,3,
+SR,Doesnt Matter Much,2,2,
+SR,Unimportant,1,1,
+Q,MatrixMultiAnswer,My family like the following flavors of ice cream.,,0
+A,checkbox,Me,Me,
+A,checkbox,My Spouse,My Spouse,
+A,checkbox,My Children,My Children,
+SR,Vanilla,Vanilla,3,
+SR,Chocolate,Chocolate,2,
+SR,Fruit Flavours,Fruit Flavours,1,
+Q,TextInput,If other please specify,,0
+A,text,test,test,
+Q,Image,This is a photo featuring delicious ice cream.,http://2.bp.blogspot.com/-mpHOyqD1at4/T52y5eEaMFI/AAAAAAAAAD4/QOBszv2HwiM/s1600/Ice+Cream+NH.gif,0
+Q,TextInput,Please provide any additional comments: Testing,,0
+A,textarea,test,test,
+Q,TextDisplay,Without ice cream life and fame are meaningless.,,0

@@ -1,0 +1,60 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- ctrl+shift+/ : to make line(s) comment ctrl+shift+\ : to make line(s) 
+	uncomment -->
+
+<suite name="AT_iConnect" allow-return-values="true" verbose="2" >
+	<test name="Alliancetech"  preserve-order="true">
+		<classes>
+		
+			
+			
+			<class name="com.Alliancetech.EMT.AddSessionsTest"/>
+			<class name="com.Alliancetech.EMT.AddRegistrantsTest"/>
+			<class name="com.Alliancetech.EMT.AddSurveyTest"/>
+			
+			<class name="com.Alliancetech.Survey.CompleteConferenceSurvey"/>
+			<class name="com.Alliancetech.Survey.CompleteSurvey"/>
+			<class name="com.Alliancetech.EMT.DeleteSurvey"/>
+			
+			<class name="com.Alliancetech.EMT.AddRoomsTest" />
+			<class name="com.Alliancetech.EMT.AddAssociationsTest" />
+			<class name="com.Alliancetech.EMT.AddSpeaker" />
+			<class name="com.Alliancetech.EMT.AddExhibitorsTest" />
+			<class name="com.Alliancetech.EMT.ImportRegistrantsDataTest" />
+			<class name="com.Alliancetech.EMT.ImportRoomsDataTest" />
+			<class name="com.Alliancetech.EMT.ImportSessionsDataTest" />
+			<class name="com.Alliancetech.EMT.ImportAssociationsDataTest"/>
+			<class name="com.Alliancetech.EMT.ImportSpeakersDataTest"/>
+			<class name="com.Alliancetech.EMT.ImportExhibitorDataTest" />
+			<class name="com.Alliancetech.EMT.DeleteRegistrantTest" />
+			<class name="com.Alliancetech.EMT.DeleteRoomTest" />
+			<class name="com.Alliancetech.EMT.DeleteSessionTest" />
+			<class name="com.Alliancetech.EMT.DeleteSpeakerTest" />
+			<class name="com.Alliancetech.EMT.DeleteAssociationTest" />
+			
+			<!-- Checkin Script -->
+			<class name="com.Alliancetech.CheckIn.IntegrationSetUpTest"/>
+			<class name="com.Alliancetech.CheckIn.AddNewRegistrant"/> 
+			
+			<!-- Sign Up Automation Scripts -->
+			<class name="com.Alliancetech.SignUp.validateSignUpXMLChanges" />
+			<class name="com.Alliancetech.SignUp.SetScreenLayoutAndValidateErrorMessagesForSignUp" />
+			
+			<!-- Attendee Journey Script -->
+			<class name="com.Alliancetech.EMT.testAttendeeJourney"/>
+			
+			<!-- iLeads Back end automation scripts -->
+			<class name="com.Alliancetech.iLeads.CreateUserAndChangePassword"/>
+			<class name="com.Alliancetech.iLeads.CreateEvent_AddUser_VerifyUserinExhibitorSite_DeleteUSerFromEvent"/>
+			<class name="com.Alliancetech.iLeads.DeleteTheEvent"/>
+			
+			<!-- REST API Automation Scripts -->
+			<class name="com.Alliancetech.REST.REST_Create_Registrant"/>
+			<class name="com.Alliancetech.REST.REST_Create_Session"/>
+			
+			
+			
+		</classes>
+	</test>
+</suite>

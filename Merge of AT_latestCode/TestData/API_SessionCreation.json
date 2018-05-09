@@ -1,0 +1,29 @@
+
+{
+    "sessionList":[
+        {
+            "attrList":[
+                {
+                    "name":"Industry",
+                    "val":"Cross Industry"
+                },
+                {
+                    "name":"Track",
+                    "val":"X-Brand"
+                }
+            ],
+            "sessionNumber":"1003Aab",
+            "sessionCode":"BRKOUT",
+            "title":"Using Analytics to Gain New Insights from your Data Warehouse",
+            "active":"true",
+            "date":"31/10/12",
+            "startTime":"10:00 AM",
+            "endTime":"11:00 AM",
+            "readerStartTime":"09:45 AM",
+            "readerEndTime":"11:00 AM",
+            "room":"Banyan A",
+            "status":"Approved",
+            "survey":"General Session Survey"
+        }
+    ]
+}

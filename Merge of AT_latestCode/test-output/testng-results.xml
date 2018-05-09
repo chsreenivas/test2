@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="326040" started-at="2018-04-23T05:25:18Z" finished-at="2018-04-23T05:30:44Z">
+    <groups>
+      <group name="RunAll">
+        <method signature="AddSessionEmailCampaign.sessionEmailCampaignForAttendeeSubType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="sessionEmailCampaignForAttendeeSubType" class="com.alliancetech.emt.AddSessionEmailCampaign"/>
+      </group> <!-- RunAll -->
+      <group name="EMT">
+        <method signature="AddSessionEmailCampaign.sessionEmailCampaignForAttendeeSubType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="sessionEmailCampaignForAttendeeSubType" class="com.alliancetech.emt.AddSessionEmailCampaign"/>
+      </group> <!-- EMT -->
+    </groups>
+    <test name="Default test" duration-ms="326040" started-at="2018-04-23T05:25:18Z" finished-at="2018-04-23T05:30:44Z">
+      <class name="com.alliancetech.emt.AddSessionEmailCampaign">
+        <test-method status="PASS" signature="setupSuite(org.testng.ITestContext)[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="setupSuite" is-config="true" duration-ms="2967" started-at="2018-04-23T10:55:15Z" finished-at="2018-04-23T10:55:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a07d605]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="reportHeader" is-config="true" duration-ms="3" started-at="2018-04-23T10:55:18Z" finished-at="2018-04-23T10:55:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.alliancetech.emt.AddSessionEmailCampaign.sessionEmailCampaignForAttendeeSubType(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="FAIL" signature="sessionEmailCampaignForAttendeeSubType(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="sessionEmailCampaignForAttendeeSubType" duration-ms="325820" started-at="2018-04-23T10:55:18Z" data-provider="getData" finished-at="2018-04-23T11:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sessions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[All Sessions]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Attendee Session Automation test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[srinivas.challapalli@cigniti.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Attendee Session Automation test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2650045]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Enrollee Session Automation test]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Enrollee Session Automation test]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2650045]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Both Session Automation test]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Both Session Automation test]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2650045]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.117)
+  (Driver info: chromedriver=2.38.551581 (2c9c29527ada10af4745ab26dd000ebb6d5e055e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Alliances-MacBook-Pro.local', ip: '10.99.80.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.551581 (2c9c29527ada10af4745ab26dd000ebb6d5e055e), userDataDir=/var/folders/h0/dz30fg9j08n97_t9vtpt5sh40000gn/T/.org.chromium.Chromium.bFsCkv}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.117, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b66ba66025a6eedb26a85e24f6771162]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.117)
+  (Driver info: chromedriver=2.38.551581 (2c9c29527ada10af4745ab26dd000ebb6d5e055e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'Alliances-MacBook-Pro.local', ip: '10.99.80.148', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.551581 (2c9c29527ada10af4745ab26dd000ebb6d5e055e), userDataDir=/var/folders/h0/dz30fg9j08n97_t9vtpt5sh40000gn/T/.org.chromium.Chromium.bFsCkv}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.117, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b66ba66025a6eedb26a85e24f6771162
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:340)
+	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy14.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:269)
+	at com.cigniti.automation.accelerators.Actiondriver.screenShot(Actiondriver.java:1081)
+	at com.cigniti.automation.utilities.Reporters.failureReport(Reporters.java:63)
+	at com.cigniti.automation.accelerators.Actiondriver.click(Actiondriver.java:54)
+	at com.alliancetech.emt.AddSessionEmailCampaign.sessionEmailCampaignForAttendeeSubType(AddSessionEmailCampaign.java:265)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionEmailCampaignForAttendeeSubType -->
+        <test-method status="PASS" signature="TestLink()[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="TestLink" is-config="true" duration-ms="1" started-at="2018-04-23T11:00:44Z" finished-at="2018-04-23T11:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLink -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="logout" is-config="true" duration-ms="0" started-at="2018-04-23T11:00:44Z" finished-at="2018-04-23T11:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="keyNull()[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="keyNull" is-config="true" duration-ms="14" started-at="2018-04-23T11:00:44Z" finished-at="2018-04-23T11:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyNull -->
+        <test-method status="FAIL" signature="tearDown(org.testng.ITestContext)[pri:0, instance:com.alliancetech.emt.AddSessionEmailCampaign@31dc339b]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-23T11:00:44Z" finished-at="2018-04-23T11:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a07d605]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[Results\Chrome\Chrome_2018-04-23_10_55_14_986\/SummaryResults_2018-04-23_10_55_14_986.html (No such file or directory)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: Results\Chrome\Chrome_2018-04-23_10_55_14_986\/SummaryResults_2018-04-23_10_55_14_986.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at com.cigniti.automation.utilities.HtmlReporters.createHtmlSummaryReport(HtmlReporters.java:83)
+	at com.cigniti.automation.accelerators.Base.tearDown(Base.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alliancetech.emt.AddSessionEmailCampaign -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,28 @@
+
+{
+    "registrantList":[
+        {
+            "attrList":[
+                {
+                    "name":"Attendee Status",
+                    "val":"Confirmed"
+                },
+                {
+                    "name":"Attendee Type",
+                    "val":"Analyst"
+                }
+            ],
+            "num":"6787692",
+            "customerId":"6787692",
+            "first":"Srinivaas",
+            "last":"Challapalli",
+            "lastModified":"2015-01-14-23.49.24.768002",
+            "email":"Srinivaas@test.com",
+            "optInAttendeeSearch":"true",
+            "loginId":"Srinivaas@test.com",
+            "password":"112233a",
+            "phone":"+1 (567) 455-7916",
+            "organization":"IBM"
+        }
+    ]
+}

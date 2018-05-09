@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- ctrl+shift+/ : to make line(s) comment ctrl+shift+\ : to make line(s) 
+	uncomment -->
+
+<suite name="AT_iConnect" allow-return-values="true" verbose="2" >
+	<test name="Alliancetech"  preserve-order="true">
+		
+<classes>
+		
+			<class name="com.Alliancetech.emt.ScreenLayoutForRegistrants"/>
+			<class name="com.Alliancetech.emt.AddRegistrantsTest"/>
+			<class name="com.Alliancetech.checkIn.CheckinSMSRegistrants"/>
+			<class name="com.Alliancetech.checkIn.validateNotifications"/>
+			<class name="com.Alliancetech.checkIn.CheckIn_UserTest"/>
+			<class name="com.Alliancetech.checkIn.screenLayoutForAdminAndAttendeeCheckin"/>
+			<!-- <class name="com.Alliancetech.checkIn.IntegrationSetUpTest"/> -->
+			<!-- <class name="com.Alliancetech.checkIn.CheckIn_OnSlaveTest"/>
+			<class name="com.Alliancetech.checkIn.CheckIn_UserTest"/>
+			<class name="com.Alliancetech.checkIn.RebadgeAndEditARegistrant"/>
+			<class name="com.Alliancetech.checkIn.RemoveCheckinStatusonMasterTest"/> -->
+			<class name="com.Alliancetech.checkIn.setScreenLayoutForAddRegistrantInCheckIn"/> 
+			<class name="com.Alliancetech.checkIn.AddNewRegistrant"/> 
+			<class name="com.Alliancetech.emt.DeleteRegistrantTest" />
+			<!-- <class name="com.Alliancetech.checkIn.enableCheckinScreenLayout"/> -->
+</classes>
+</test>
+</suite>

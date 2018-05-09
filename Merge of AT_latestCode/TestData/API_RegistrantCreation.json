@@ -1,0 +1,25 @@
+
+{
+    "registrantList":[
+        {
+            "attrList":[
+                {
+                    "name":"Attendee Status",
+                    "val":"Accepted"
+                },
+                {
+                    "name":"Attendee Type",
+                    "val":"Attendee"
+                }
+            ],
+            "num":"2650044",
+            "first":"Ravali",
+            "last":"Juluri",
+            "lastModified":"2014-12-14-23.49.24.768000",
+            "email":"ravali.juluri@cigniti.com",
+            "optInAttendeeSearch":"true",
+            "phone":"9030460142",
+            "organization":"IBM"
+        }
+    ]
+}
